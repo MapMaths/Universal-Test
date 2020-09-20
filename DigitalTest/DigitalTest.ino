@@ -1,13 +1,13 @@
 const int outPin = 3;
-int inPin = A0;
+int inPin = 2;
 int value;
 void setup()
 {
   Serial.begin(9600);
   pinMode(inPin, INPUT);
   pinMode(outPin, OUTPUT);
-  Serial.println("Reading pin A0, outputting pin 3. ");
-  Serial.println("Serial input to change input pin. ");
+  Serial.println("Reading at pin 2, writing at pin 3. ");
+  Serial.println("Serial input to change reading pin. ");
 }
 void loop()
 {

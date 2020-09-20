@@ -6,8 +6,8 @@ void setup()
   Serial.begin(9600);
   pinMode(inPin, INPUT);
   pinMode(outPin, OUTPUT);
-  Serial.println("Reading pin A0, outputting pin 3. ");
-  Serial.println("Serial input to change input pin. ");
+  Serial.println("Reading at pin A0, writing at pin 3. ");
+  Serial.println("Serial input to change reading pin. ");
 }
 void loop()
 {
