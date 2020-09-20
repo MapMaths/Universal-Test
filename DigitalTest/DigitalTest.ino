@@ -14,7 +14,7 @@ void loop()
   if (Serial.available() > 0)
   {
     inPin = Serial.read();
-    Serial.println("Serial change to " + inPin);
+    Serial.println("Reading pin change to " + inPin);
   }
   value = analogRead(inPin);
   Serial.println(value);
