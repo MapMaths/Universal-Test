@@ -1,3 +1,9 @@
+/*
+  AnalogTest.ino - A universal basic test for Digital and Serial.
+  Create by MapMaths, September 23, 2020.
+  Released into the public domain.
+*/
+
 const int outPin = 4;
 int inPin = 2;
 int value;
