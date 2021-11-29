@@ -24,6 +24,7 @@ void loop()
   {
     inPin = Serial.read();
     Serial.println("Reading pin change to " + inPin);
+    pinMode(inPin, INPUT);
   }
   value = analogRead(inPin);
   Serial.println(value);
